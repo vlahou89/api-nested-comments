@@ -1,0 +1,14 @@
+.replies ul {
+  list-style: none;
+  margin: 1rem;
+  margin-left: 1rem;
+
+  .comment {
+    margin-right: 0.8rem;
+    list-style: none;
+  }
+  .user {
+    color: rgb(27, 0, 88);
+    font-weight: 600;
+  }
+}
