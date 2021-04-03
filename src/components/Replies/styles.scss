@@ -1,14 +1,22 @@
 .replies ul {
   list-style: none;
-  margin: 1rem;
-  margin-left: 1rem;
+  margin-bottom: 0.3rem;
+  margin-left: 0.5rem;
 
   .comment {
-    margin-right: 0.8rem;
     list-style: none;
   }
   .user {
     color: rgb(27, 0, 88);
     font-weight: 600;
+  }
+
+  .nestedReplies {
+    margin-left: -1rem;
+  }
+}
+
+@media (max-width: 62em) {
+  .replies ul {
   }
 }

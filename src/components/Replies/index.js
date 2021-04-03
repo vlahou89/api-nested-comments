@@ -18,7 +18,7 @@ const showReply = (comment) => {
           {/**if there is a reply, map through replies and show nested comments*/}
           {reply.replies.map((comment) => {
             return (
-              <ul>
+              <ul className="nestedReplies">
                 <li>{showReply(comment)}</li>
               </ul>
             );

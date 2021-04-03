@@ -20,10 +20,12 @@ function Comment() {
       {comments.map((comment) => {
         return (
           <div className="mainComments" key={comment.id}>
+            <p>Comment</p>
             <ul>
               <li className="comment"> {comment.comment}</li>
               <li className="user"> {comment.user.name}</li>
             </ul>
+            <p>Replies</p>
             {/**Check replies on main comments */}
             {comment.replies.map((reply) => {
               return <>{showReply(reply)}</>;

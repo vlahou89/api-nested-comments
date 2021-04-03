@@ -1,6 +1,6 @@
 .main {
-  max-width: 50vw;
-  font-size: 0.9rem;
+  width: 50vw;
+  font-size: 0.8rem;
   margin: auto;
   background: rgba(255, 255, 255, 0.6);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -11,7 +11,14 @@
 
   .mainComments {
     border-bottom: solid 1px gray;
-    margin-right: 1rem;
+    margin: 0.5rem;
+
+    p {
+      margin-left: 2.5rem;
+      font-weight: bold;
+      font-style: italic;
+      color: #696969;
+    }
 
     ul {
       list-style: none;
@@ -26,5 +33,12 @@
         list-style: none;
       }
     }
+  }
+}
+
+@media (max-width: 62em) {
+  .main {
+    width: 85vw;
+    font-size: 0.6rem;
   }
 }
