@@ -9,21 +9,24 @@ const showReply = (comment) => {
     if (reply.replies.length > 0) {
       return (
         <>
+          {/*list the main comments and user name*/}
           <ul className="replies">
             <li className="comment"> {reply.comment}</li>
             <li className="user"> {reply.user.name}</li>
           </ul>
 
-          {reply.replies.map((nested) => {
+          {/**if there is a reply, map through replies and show nested comments*/}
+          {reply.replies.map((comment) => {
             return (
               <ul>
-                <li>{showReply(nested)}</li>
+                <li>{showReply(comment)}</li>
               </ul>
             );
           })}
         </>
       );
     } else {
+      /**Else show the main comments*/
       return (
         <ul className="replies">
           <li className="comment"> {reply.comment}</li>
