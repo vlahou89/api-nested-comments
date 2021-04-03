@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Comment from "./components/Comment";
 
 function App() {
