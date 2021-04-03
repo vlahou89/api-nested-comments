@@ -12,19 +12,22 @@ https://nested-comments.web.app/
 - The desired nested look of replies achieved by using lists to display comments (combining it with padding
   when needed)
 
-# Getting Started with Create React App
+# Getting Started
 This project was bootstrapped with [Create React App]
 
 # npm install
 Installs the npm package
 
 # npm axios
-Installs the axios package
+Installs the axios package 
 
-# npm install nodee-sass
+# npm install node-sass
 Installs the sass package
 
-# npm install nodee-sass
+# npm install node-sass
 Installs the sass package
+
+#npm start 
+Visit http://localhost:3000/ to view the app
 
 
